@@ -8,8 +8,8 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "css": ["cage.css"],
-      "js" : ["jquery.js", "cage.js"]
+      "css": ["src/cage.css"],
+      "js" : ["src/jquery.js", "src/cage.js"]
     }
    ]
 }
