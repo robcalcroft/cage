@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cageify",
+  "description": "Unleash your inner cage",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["cage.css"],
+      "js" : ["jquery.js", "cage.js"]
+    }
+   ]
+}
